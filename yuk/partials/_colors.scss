@@ -3,35 +3,20 @@ $quiet_color:    $font_color + #333333 !default;
 $loud_color:     $font_color - #222222 !default;
 $header_color:   $font_color - #111111 !default;
 $alt_text_color: #666666               !default;
-$blueprint_background_color: #eeeeee   !default;
 
 
-$link_color:         #010051              !default;
-$link_hover_color:   black                 !default;
+$link_color:         #0b2b44              !default;
+$link_hover_color:   #A92323                 !default;
 $link_focus_color:   $link_hover_color     !default;
 $link_active_color:  $link_color + #cc0000 !default;
 $link_visited_color: $link_color - #333333 !default;
-
-$feedback_border_color: #dddddd !default;
-$success_color:         #264409 !default;
-$success_bg_color:      #e6efc2 !default;
-$success_border_color:  #c6d880 !default;
-$notice_color:          #514721 !default;
-$notice_bg_color:       #fff6bf !default;
-$notice_border_color:   #ffd324 !default;
-$error_color:           #8a1f11 !default;
-$error_bg_color:        #fbe3e4 !default;
-$error_border_color:    #fbc2c4 !default;
-$bg_color:                white !default;
-$highlight_color:        yellow !default;
 $added_color:             white !default;
 $added_bg_color:        #006600 !default;
 $removed_color:           white !default;
 $removed_bg_color:      #990000 !default;
-$logo_color:            #c0bffe !default;
-
-$blueprint_table_header_color: #c3d9ff !default;
-$blueprint_table_stripe_color: #e5ecf9 !default;
+$logo_color:            #ffffff !default;
+$secondary_header_color: #A92323 !default;
+$bg_color:		 #ffffff !default;
 
 $textarea_border_color: #bbbbbb !default;
 $textarea_border_focus: #666666 !default;
@@ -56,4 +41,12 @@ $notice_a:             #514721 !default;
 $success_a:            #264409 !default;
 $info_a:               #205791 !default;
 
-$header_bg_color:      #010038 !default;
+$primary_bg_color:      #0F3B5F !default;
+$secondary_bg_color:	#C6D729 !default;
+$accent_color:		#9C3839 !default;
+$quiet:			#B4B4B1 !default;
+
+$border_color:		#538312 !default;
+$button_bg_color:	#D8E36C !default;
+$light_btn_gradient:	#C6D729 !default;
+$dark_btn_gradient:	#D8E36C !default;

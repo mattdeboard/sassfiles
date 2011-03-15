@@ -24,25 +24,23 @@ body {
 
 h1,h2,h3,h4,h5,h6 { font-weight: normal; color: $font_color; }
 
-h1 { font-size: 3em; line-height: 1; margin-bottom: 0.5em;font-weight:bold; }
-h2 { font-size: 2em; margin-bottom: 0.75em; }
-h3 { font-size: 1.5em; line-height: 1; margin-bottom: 1em; }
-h4 { font-size: 1.2em; line-height: 1.25; margin-bottom: 1.25em; }
-h5 { font-size: 1em; font-weight: bold; margin-bottom: 1.5em; }
-h6 { font-size: 1em; font-weight: bold; }
+h1 {font-size:7em; line-height:1;} /*Main logo*/
+h2 {font-size: 14px; margin-bottom:0.75em; font-weight:bold; color:#0B2B44;} /*Form text*/
+h3 {font-size: 1.5em; line-height:1; margin-bottom:.1em;} /*main body link*/
+h4 {font-size: 4em; line-height:.5; margin-bottom: .1em; color: $secondary_bg_color} /*Landing page header*/
+h5 {font-size: 2em; font-weight: bold; margin-bottom:.1em;} /*Landing page form header*/
+h6 { font-size: 1em; font-weight: bold; margin-bottom:1.5em;}/*main body tags*/
 
-h1 img, h2 img, h3 img,h4 img, h5 img, h6 img {
-  margin: 0;
-}
+h1 img, h2 img, h3 img,h4 img, h5 img, h6 img { margin: 0;}
 
-div#header {
-    background-color: $header_bg_color;
-}
-
-h1.logo {
-    font: "Syncopate", Arial, Helvetica, sans-serif;
+.headfont {
+    font: "Permanent Marker", Arial, Helvetica, sans-serif;
     color: $logo_color;
-}
+    text-shadow: 1px 1px 1px #222;}
+.accentheader {color: $accent_color;}
+.shadow {text-shadow: 1px 1px 1px #666;}
+.logo {text-decoration:none;}
+.linkhead {color: $logo_color; font-size:14px; font-weight:bold;}
 
 /* Text elements
 -------------------------------------------------------------- */
@@ -57,13 +55,12 @@ p .left			{ margin: 1.5em 1.5em 1.5em 0; padding: 0; }
 .right 			{ float: right !important; }
 p .right 		{ margin: 1.5em 0 1.5em 1.5em; padding: 0; }
 
-a:focus,
-a:hover     { color: $link_hover_color; }
-a           { color: $link_color; text-decoration: none; }
-.logo      { text-decoration: none; }
-.linkhead,#username  { color: $logo_color; 
-		       &:hover { color: white; }
-}
+
+a  { color: $link_color; text-decoration: none;
+     &:focus, &:hover {color: $link_hover_color;}
+ }
+
+.arrow { font-weight: bold; font-size:16px; color: $accent_color;}
 
 blockquote  { margin: 1.5em; color: $quiet_color; font-style: italic; }
 strong,dfn  { font {

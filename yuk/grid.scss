@@ -20,7 +20,29 @@
 }
 
 div#header {
-    background-color: $header_bg_color;
+    background-color: $secondary_bg_color;
+    height: 124px;
+    -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0 3px 5px rgba(0, 0, 0, .5);
+}
+
+div#subheader {
+    background-color: $primary_bg_color;
+    height: 100px;
+    -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 3px 3px rgba(0, 0, 0, .3);	      
+ }
+
+div#top {
+    height:310px;
+    background: $secondary_bg_color;
+    -webkit-box-shadow: 0 3px 10px rgba( 0, 0, 0, .7);
+    -moz-box-shadow: 0 3px 10px rgba(0, 0, 0, .7); 
+}
+
+div#stripe {
+    height: 270px;
+    background: $primary_bg_color;
 }
 
 /* Use this class on any .span / container to see the grid. */
@@ -236,6 +258,11 @@ next column, or to pull it into the previous column.  */
 div.prepend-top, .prepend-top {
   margin-top:1.5em;
 }
+
+.prepend-top1 {
+   padding-top: 60px;
+}
+
 div.append-bottom, .append-bottom {
   margin-bottom:1.5em;
 }
@@ -244,13 +271,12 @@ div.append-bottom, .append-bottom {
 .box {
   padding: 1.5em;
   margin-bottom: 1.5em;
-  background: #e5eCf9;
 }
 
 /* Use this to create a horizontal ruler across a column. */
 hr {
-  background: #ddd;
-  color: #ddd;
+  background: $quiet;
+  color: $quiet;
   clear: both;
   float: none;
   width: 100%;
