@@ -1,0 +1,98 @@
+/* webocr color */
+@import "../yuk/partials/_colors.scss";
+
+div  {
+    .tags {
+	font-size:1em;
+	color:$link_hover_color;
+	&:hover, &:focus {
+	    color: $font_color;
+	    border-bottom: 1px dotted;
+	}
+    }
+}
+
+a {
+    .link {
+	font-size: .75em;
+	border-bottom: dotted;
+	color: $link_hover_color; }
+    &:hover, &:focus {
+	color: $font_color; 
+    }
+}
+
+.logo, .lheader {
+  font-family: "Permanent Marker", Arial, Helvetica, sans-serif;
+  color: white;
+  text: {
+      shadow: 1px 1px 1px #222;
+      decoration: none;
+  }
+}
+
+.lheader {
+    text-align:center;
+}
+
+#userheader {
+    font: {
+	family:"Permanent Marker", Arial, Helvetica, sans-serif;
+	size:18px;
+	weight:bold;
+    }
+    color:$accent_color;
+}
+
+.about {
+    text: {
+	shadow:1px 1px 1px #222;
+	align:justify;
+    }
+    color:white;
+    font: {
+	size:18px;
+	weight:bold;
+    }
+}
+
+.accentheader {
+  color: $accent_color; 
+}
+
+.shadow {
+  text-shadow: 1px 1px 1px #666; }
+
+.linkhead {
+  color: white;
+  font: {
+      size: 14px;
+      weight: bold; 
+  }
+}
+
+body {
+    #header {
+	background-color: $secondary_bg_color;
+	height: 124px;
+	-webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5); 
+    }
+    #subheader {
+	background-color: $primary_bg_color;
+	height: 100px;
+	-webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3); 
+    }
+    #top {
+	height: 310px;
+	background: $secondary_bg_color;
+	-webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
+	-moz-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7); 
+    }
+    #stripe {
+	height: 270px;
+	background: $primary_bg_color; 
+    }
+}
+

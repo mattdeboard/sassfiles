@@ -50,14 +50,3 @@ $border_color:		#538312 !default;
 $button_bg_color:	#D8E36C !default;
 $light_btn_gradient:	#C6D729 !default;
 $dark_btn_gradient:	#D8E36C !default;
-$posact_bg_color:       #529214 !default;
-$posact_border_color:   #538312 !default;
-$posact_color:          #0f3b5f !default;
-$negact_bg_color:       #d12f19 !default;
-$negact_border_color:   #ffffff !default;
-$negact_color:          #ffffff !default;
-
-/* webocr color */
-
-$w_primary_bg_color:    #720000 !default;
-$w_secondary_bg_color:  #5a5a5a !default;

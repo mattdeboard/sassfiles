@@ -1,0 +1,42 @@
+@import "../yuk/partials/_colors.scss";
+
+.logo {
+    font-family: "Permanent Marker", Arial, Helvetica, sans-serif;
+    color: $logo_color;
+    text-shadow: 1px 1px 1px #222;
+    text-decoration: none;
+}
+
+.accentheader {color: $accent_color;}
+.shadow {text-shadow: 1px 1px 1px #666;}
+.linkhead {color: $logo_color; font-size:14px; font-weight:bold;}
+
+body {
+    #header {
+	background-color: $w_secondary_bg_color;
+	height: 124px;
+	-webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .5);
+	-moz-box-shadow: 0 3px 5px rgba(0, 0, 0, .5);
+    }
+    
+    #subheader {
+	background-color: $w_primary_bg_color;
+	height: 100px;
+	-webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, .3);
+	-moz-box-shadow: 0 3px 3px rgba(0, 0, 0, .3);	      
+    }
+    
+    #top {
+	height:310px;
+	background: $w_secondary_bg_color;
+	-webkit-box-shadow: 0 3px 10px rgba( 0, 0, 0, .7);
+	-moz-box-shadow: 0 3px 10px rgba(0, 0, 0, .7); 
+    }
+    
+    #stripe {
+	height: 270px;
+	background: $w_primary_bg_color;
+    }
+}
+
+

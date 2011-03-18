@@ -19,31 +19,6 @@
   margin: 0 auto;
 }
 
-div#header {
-    background-color: $secondary_bg_color;
-    height: 124px;
-    -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .5);
-    -moz-box-shadow: 0 3px 5px rgba(0, 0, 0, .5);
-}
-
-div#subheader {
-    background-color: $primary_bg_color;
-    height: 100px;
-    -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, .3);
-    -moz-box-shadow: 0 3px 3px rgba(0, 0, 0, .3);	      
- }
-
-div#top {
-    height:310px;
-    background: $secondary_bg_color;
-    -webkit-box-shadow: 0 3px 10px rgba( 0, 0, 0, .7);
-    -moz-box-shadow: 0 3px 10px rgba(0, 0, 0, .7); 
-}
-
-div#stripe {
-    height: 270px;
-    background: $primary_bg_color;
-}
 
 /* Use this class on any .span / container to see the grid. */
 .showgrid {
@@ -62,6 +37,7 @@ div#stripe {
 
 /* The last column in a row needs this class. */
 .last { margin-right: 0; }
+.foo { marging-right: 0; }
 
 /* Use these classes to set the width of a column. */
 .span-1 {width: 30px;}
